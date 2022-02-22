@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="cart.js" async></script>
+    <title>Shopping-cart</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">STORE</a></li>
+            </ul>
+        </nav>
+        <h1 class="band-name band-name-large">Shopping here</h1>
+    </header>
+    <section class="container content-section">
+        <h2 class="section-header">Fruits</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Orange-Orange</span>
+                <img class="shop-item-image" src="http://www.azspagirls.com/files/2010/09/orange.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Big-Banana</span>
+                <img class="shop-item-image" src="http://images.all-free-download.com/images/graphicthumb/vector_illustration_of_ripe_bananas_567893.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Lemon</span>
+                <img class="shop-item-image" src="https://3.imimg.com/data3/IC/JO/MY-9839190/organic-lemon-250x250.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Juicy-Orange</span>
+                <img class="shop-item-image" src="http://www.azspagirls.com/files/2010/09/orange.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">Fresh Fruits Available</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Orange</span>
+                <img class="shop-item-image" src="http://www.azspagirls.com/files/2010/09/orange.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Banana</span>
+                <img class="shop-item-image" src="http://images.all-free-download.com/images/graphicthumb/vector_illustration_of_ripe_bananas_567893.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$6</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">YOUR CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="http://images.all-free-download.com/images/graphicthumb/vector_illustration_of_ripe_bananas_567893.jpg" width="100" height="100">
+                    <span class="cart-item-title">Banana</span>
+                </div>
+                <span class="cart-price cart-column">$6</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="1">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$6</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">BUY ITEMS</button>
+    </section>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">Shopping Hub</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img src="images/youtube-brands.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.spotify.com" target="_blank">
+                        <img src="images/spotify-brands.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="images/facebook-brands.svg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
